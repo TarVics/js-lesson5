@@ -245,8 +245,10 @@ logHeader(`- створити функцію яка повертає найме�
 /**
  * повертає найменьше число з масиву
  * @param {number[]} numbers
- * @returns {number|null} null У випадку, якщо numbers - порожній
- * */
+ * @returns {number|null}
+ * number - якщо <b>numbers</b> - непорожній;<br>
+ * null - якщо <b>numbers</b> - порожній
+ **/
 function leastNumber(numbers) {
     if (!numbers.length)
         return null;
@@ -276,8 +278,8 @@ logHeader(`- створити функцію яка приймає масив ч
  * Приклад [1,2,10]->13
  * @param {number[]} numbers
  * @returns {number|null}
- *  number - у випадку, якщо numbers - непорожній;<br>
- *  null - у випадку, якщо numbers - порожній
+ *  number - якщо <b>numbers</b> - непорожній;<br>
+ *  null - якщо <b>numbers</b> - порожній
  */
 function sumNumbers(numbers) {
     if (!numbers.length)
