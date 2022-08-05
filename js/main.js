@@ -275,7 +275,9 @@ logHeader(`- створити функцію яка приймає масив ч
  * приймає масив чисел, сумує значення елементів масиву та повертає його.
  * Приклад [1,2,10]->13
  * @param {number[]} numbers
- * @returns {number|null} null У випадку, якщо numbers - порожній
+ * @returns {number|null}
+ *  number - у випадку, якщо numbers - непорожній;<br>
+ *  null - у випадку, якщо numbers - порожній
  */
 function sumNumbers(numbers) {
     if (!numbers.length)
