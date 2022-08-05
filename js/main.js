@@ -25,7 +25,7 @@ const htmlEOL = '</span><br>';
 
 /**
  * Друкує у консоль заголовок
- * @param {string} text
+ * @param {string} text Текст для друку
  */
 function logHeader(text) {
     console.log('%c%s', styleHeader, text);
@@ -33,7 +33,7 @@ function logHeader(text) {
 
 /**
  * Друкує у документ заголовок
- * @param text
+ * @param text Текст для друку
  */
 function logHtmlHeader(text) {
     document.write(headerBegin, text, headerEnd);
@@ -45,8 +45,8 @@ logHeader(`- створити функцію яка обчислює та пов
 
 /**
  * обчислює та повертає площу прямокутника зі сторонами а і б
- * @param {number} a
- * @param {number} b
+ * @param {number} a Сторона а
+ * @param {number} b Сторона б
  * @returns {number}
  */
 function squareBox(a, b) {
